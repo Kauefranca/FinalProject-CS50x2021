@@ -1,0 +1,25 @@
+body {
+    background: url("https://images2.alphacoders.com/110/thumb-1920-1109233.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+main .form-control {
+    display: inline-block;
+    width: auto;
+}
+
+.name {
+    text-align: center;
+}
+
+footer {
+    width: 200px;
+    border-radius: 10px;
+}
+
+footer p {
+    color: white;
+}

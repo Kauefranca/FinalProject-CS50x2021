@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+
+    <div class="card" style='text-align: center;'>
+        <h5 class="card-header">Welcome to Genshin Guessr</h5>
+        <div class="card-body">
+            <h5 class="card-title">Write down your name and begin to play!</h5>
+            <form action="/play" method="post">
+                <div class="form-group">
+                    <input autocomplete="off" autofocus class="form-control name" name="username" placeholder="Username" type="text" style='width: 130px'>
+                </div>
+                <button class="btn btn-primary" type="submit">Play!</button>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
