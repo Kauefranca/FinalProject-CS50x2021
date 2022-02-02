@@ -23,7 +23,7 @@ Here is where the magic happens, this file is the main game, after the user writ
 This place is where I store every image that the site renders including guess locations, pins and the loading gif.
 
 ### static/js
-Here is the only javascript file that controls the game and renders the map place markers, lines and controls zooming. He uses a lib called [Leaflet](https://leafletjs.com).
+Here is the only javascript file that controls the game and renders the map place markers, lines and controls zooming. It uses a lib called [Leaflet](https://leafletjs.com).
 
 ### static/tiles
 That's probably the hardest part for making an interactive map, I needed to make a helper for downloading every image from the game map with the correct name for tiles that leaflet uses. The helper is on /download.js (I explain better what it does on the next topic).
